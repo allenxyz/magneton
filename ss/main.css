@@ -1,0 +1,394 @@
+@font-face {font-family: "Play"; src:url(../text/Play-Regular.ttf);}
+@font-face {font-family: "Play"; src:url(../text/Play-Bold.ttf); font-weight: bold;}
+@font-face {font-family: "Lato"; src:url(../text/Lato-Regular.ttf);}
+@font-face {font-family: "Lato"; src:url(../text/Lato-Bold.ttf); font-weight: bold;}
+@font-face {font-family: "Droid Serif"; src:url(../text/DroidSerif.ttf);}
+
+html {
+	background: #ddd url("../img/hafltone.png") ;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	width: 1200px;
+	height: 80px;
+	margin: 0px auto;
+	padding: 0px;
+
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	backgro und: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+	background-color: white; 
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	/*background-image: url(../img/halftone.png);*/
+	opacity: 0.75;	
+	opacity: 1;
+	clear: both;
+}
+
+.links {
+	font-size: 20px;
+}
+
+.links a {
+	color: black;
+	text-decoration: none;
+	font-family: "Play";
+	font-weight: bold;
+	font-size: 15px;
+}
+.links a:hover {
+	color: blue;
+}
+
+.links .home a {
+	font-size: 40px;
+}
+.left-links {
+	float: left;
+	width: 200px;
+	display: inline-block;
+}
+.left-links {
+	padding: 15px;
+}
+.right-links {
+	float: right;
+	text-align: right;
+	width: 900px;
+	display: inline-block;
+	margin: 30px 0px;
+}
+.right-links a {
+	padding: 20px;
+}
+
+
+#banner_container {
+	width: 1000px;
+	background-color: grey;
+	height: 300px;
+	margin: 20px auto;
+	position: relative;
+	z-index: 1;
+	opacity: 0.75;
+	opacity: 1;
+	border-radius: 0 6em 0 5em;
+	content: "JigSawJS";
+	font-family: "Play";
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+
+	background-image: url(../img/jigsawpiece.jpg);
+	/*background-size: contain;*/
+}
+
+
+
+#banner_container h2 {
+	position: absolute;
+	bottom: 100px;
+	left: 125px;
+	font-size: 50px;
+	opacity: 1;
+
+}
+
+#banner_container p {
+	position: absolute;
+	top: 50px;
+	left: 125px;
+	opacity: 1;
+
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+a.download {
+	font-size: 40px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 50px;
+	left: 125px;
+	color: white;
+
+	background-color: rgb(105, 105, 105);
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888;
+	border-radius: 10px;
+
+	font-family: "Play" sans-serif;
+}
+a.index-download:hover {
+	bottom: 45px;
+	left: 130px;
+	box-shadow: 3px 3px 2px #888;
+	background-color: rgb(80,80,80);
+}
+ /*==========================================
+   =================css for jigsaw ==========
+   ========================================== 	*/
+/*.jigsaw, .jigsaw span {
+	background-color: #1AE409;
+	z-index: -5;
+}
+
+.jigsaw {
+	display: block;
+	width: 28em;
+	height: 22em;
+	font-size: 12px;
+	position: absolute;
+	border-radius: 0 0 3em 3em;
+	right: 50px;
+	top: 0px;
+	bottom: ;
+	opacity: 0.8;
+}
+
+
+
+.jigsaw a:hover {
+	color: grey;
+}
+
+.jigsaw .jig-bot, 
+.jigsaw .jig-left, 
+.jigsaw .jig-right  {
+	width: 8em;
+	height: 8em;
+	position: absolute;
+	border-radius: 100%;
+}
+
+.jigsaw .jig-bot {
+	top: 20em;
+	left: 11em;
+}
+
+.jigsaw .jig-left {
+	top: 8em;
+	left: -6em;
+}
+
+.jigsaw .jig-right {
+	width: 7em;
+	height: 7em;
+
+	top: 6em;
+	left: 24em;
+	background-color: white;
+
+}
+*/
+
+
+
+
+.quarter3 {
+	width: 74%;
+}
+.quarter {
+	width: 24%;
+}
+.half {
+	width: 49%;
+}
+.third {
+	width: 33%;
+}
+.third2 {
+	width: 66%;
+}
+
+.divide {
+	display: inline-block;
+	border-top: 1px solid white;
+	padding: 30px 30px;
+	margin: 30px 0px;
+	width: auto;
+}
+
+p {
+	color: rgb(39,39,39);
+	font-family: "Lato", sans-serif ;
+}
+
+h1 {
+	font-family: "Lato", sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+h2 {
+	font-family: "Lato", sans-serif;
+	font-size: 60px;
+}
+h3 {
+	font-family: "Lato", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin: 20px 0px;
+}
+h4 {
+	font-family: "Lato", sans-serif;
+	font-size: 40px;
+	margin: 20px 0px;
+}
+h5 {
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	margin: 10px 0px;
+}
+h6 {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	margin:10px 0px;
+	
+}
+
+.divide li {
+	font-family: "Lato", sans-serif;
+
+}
+
+.blackbox {
+	/*background: rgb(76,76,76); 
+	background: -moz-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 59%, rgba(44,44,44,1) 59%, rgba(43,43,43,1) 76%, rgba(17,17,17,1) 86%, rgba(17,17,17,1) 86%, rgba(28,28,28,1) 91%, rgba(0,0,0,1) 94%, rgba(0,0,0,1) 94%, rgba(0,0,0,1) 100%, rgba(19,19,19,1) 100%, rgba(0,0,0,1) 100%); 
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(76,76,76,1)), color-stop(12%,rgba(89,89,89,1)), color-stop(25%,rgba(102,102,102,1)), color-stop(39%,rgba(71,71,71,1)), color-stop(59%,rgba(44,44,44,1)), color-stop(59%,rgba(44,44,44,1)), color-stop(76%,rgba(43,43,43,1)), color-stop(86%,rgba(17,17,17,1)), color-stop(86%,rgba(17,17,17,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(94%,rgba(0,0,0,1)), color-stop(94%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1)), color-stop(100%,rgba(19,19,19,1)), color-stop(100%,rgba(0,0,0,1))); 
+	background: -webkit-linear-gradient(45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 59%,rgba(44,44,44,1) 59%,rgba(43,43,43,1) 76%,rgba(17,17,17,1) 86%,rgba(17,17,17,1) 86%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 100%,rgba(19,19,19,1) 100%,rgba(0,0,0,1) 100%); /
+	background: -o-linear-gradient(45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 59%,rgba(44,44,44,1) 59%,rgba(43,43,43,1) 76%,rgba(17,17,17,1) 86%,rgba(17,17,17,1) 86%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 100%,rgba(19,19,19,1) 100%,rgba(0,0,0,1) 100%); 
+	background: -ms-linear-gradient(45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 59%,rgba(44,44,44,1) 59%,rgba(43,43,43,1) 76%,rgba(17,17,17,1) 86%,rgba(17,17,17,1) 86%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 100%,rgba(19,19,19,1) 100%,rgba(0,0,0,1) 100%);
+	background: linear-gradient(45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 59%,rgba(44,44,44,1) 59%,rgba(43,43,43,1) 76%,rgba(17,17,17,1) 86%,rgba(17,17,17,1) 86%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 94%,rgba(0,0,0,1) 100%,rgba(19,19,19,1) 100%,rgba(0,0,0,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000',GradientType=1 ); 
+	*/
+	background: url(../img/congruent_outline.png);
+	padding: 20px;
+	border-radius: 30px;
+	height: 400px;
+	border: 5px solid black;
+	
+	position: relative;
+	margin-top: 50px;
+
+}
+
+.blackbox p, 
+.blackbox h1, 
+.blackbox h2, 
+.blackbox h3, 
+.blackbox h4, 
+.blackbox h5,
+.blackbox h6 {
+	color: white;
+}
+
+footer {
+	width: 1200px;
+	color: rgb(50,50,50);
+	opacity: 0.8;
+	margin: 10px auto;
+	border-top: 1px solid white;
+	clear: both;
+}
+
+.bold {
+	font-weight: 20px;
+}
+
+.emboss {
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0,0,0,0.8);
+}
+
+.blackbox h4 {
+	font-family: "Droid Serif", sans-serif;
+	width: 80%;
+	padding: 20px 0px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: bold;
+	margin: 20px auto;
+}
+
+
+
+
+/* ---------------------------------
+-------Download page stuff----------
+------------------------------------*/
+.side-left {
+	height: 80%;
+	width: 200px;
+	position: fixed;
+	overflow: auto;
+	font-family: "Lato";
+}
+
+
+.side-right {
+	float: right;
+	margin-left: 210px;
+	width: auto;
+}
+
+.side-left ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.side-left ul li a {
+	text-decoration: none;
+	color: rgb(50, 50, 50);
+	border-bottom: 1px dotted rgb(50,50,50);
+}
+
+.side-left ul li a:hover{
+	color: grey;
+	border-bottom: 1px dotted grey;
+}
+
+.side-left ul li a:visited {
+	color: grey;
+	border-bottom: 1px dotted grey;
+}
+
+.side-left li.subhead {
+	margin-top: 20px;
+	margin-bottom: 5px;
+
+	font-weight: bold;
+}
+
+.code {
+	font-style: italic;
+	border: 5px double black;
+	padding: 20px;
+}
+
+
+
+/* demo page css*/
+.video iframe{
+	display: block;
+	margin: 20px auto;
+}

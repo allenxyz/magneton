@@ -1,0 +1,48 @@
+@font-face {font-family: "Play"; src:url(../text/Play-Regular.ttf);}
+@font-face {font-family: "Play"; src:url(../text/Play-Bold.ttf); font-weight: bold;}
+
+a.download {
+	font-family: "Play" serif;
+	font-size: 25px;	
+	font-weight: bold;
+	text-align: center;
+	width: auto;
+	position: static;
+	background-color: green;
+	position: absolute;
+
+}	
+
+.right-align {
+	text-align: right;
+}
+
+a.versionB {
+	bottom: 65px;
+	left: 30px;
+}
+a.versionA {
+	bottom: 170px;
+	left: 30px;
+}
+
+
+a.versionA:hover {
+	bottom: 163px;
+	left: 37px;
+
+	box-shadow: 3px 3px 2px #888;
+
+
+}
+
+a.versionB:hover {
+
+	bottom: 58px;
+	left: 37px;
+
+
+	box-shadow: 3px 3px 2px #888;
+
+
+}
