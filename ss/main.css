@@ -348,7 +348,7 @@ footer {
 .side-right {
 	float: right;
 	margin-left: 210px;
-	width: auto;
+	width: 1000px;
 }
 
 .side-left ul {
@@ -383,6 +383,9 @@ footer {
 	font-style: italic;
 	border: 5px double black;
 	padding: 20px;
+	overflow: auto;
+	word-wrap: normal;
+	width: 800px;
 }
 
 

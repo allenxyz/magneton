@@ -110,8 +110,25 @@
 				<p>
 				This is a lot of deatils about this function. I have no idea what this function does as it is a completely made up thing oh right I should add some latin here instead haha
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a convallis ligula, vel auctor sapien. Mauris sollicitudin commodo tortor aliquet consectetur. Phasellus enim tellus, molestie at consectetur feugiat, posuere eget eros. Phasellus vehicula dapibus ipsum suscipit faucibus. Pellentesque pharetra mattis neque et malesuada. Nunc a placerat mauris. Nam cursus nisi ut egestas dictum. Nullam sed blandit orci, et imperdiet erat. Morbi varius aliquet magna eget eleifend.
-
+				<br>
+				Example:
 				</p>
+				<div class="code">
+					<pre>var now = new Date();
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+document.write(today);</pre>
+				</div>
+
+
 			</div>
 
 		</div>
